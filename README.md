@@ -1,3 +1,8 @@
+> [!WARNING]
+> This repository has been archived and is no longer maintained.  
+> The code is provided for historical reference and may contain unpatched or unknown vulnerabilities.  
+> It should not be used in production systems.
+
 ABOUT
 -----
 PLIET (People Locator Email Processing Task), as the name indicates, is an email processing task which was designed to receive and process emails from disaster-affected persons, and to send apprpopriate data from each email to NLM's People Locator (PL) Services over SOAP interface. NLP processing techniques and problem-specific vocabulary are used to determine each email's context, interpret the free text, and extract the required fields such as a person's name, location, and health status. For each message sent to PL, PLIET would receive an apprropriate response from it, and then format and send a corresponding reply to the original email sender. 
